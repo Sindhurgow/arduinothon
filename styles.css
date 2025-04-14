@@ -563,7 +563,7 @@ footer {
   align-items: center;
   text-align: end;
   gap: 5rem;
-  animation: scrollLogos 20s linear infinite; /* Continuous scrolling animation */
+  animation: scrollLogos 15s linear infinite; /* Continuous scrolling animation */
 }
 
 .sponsor-logos img {
@@ -582,11 +582,18 @@ footer {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-110%);
+    transform: translateX(-100%);
   }
 }
 
 /* Duplicate the logos for seamless scrolling */
+.sponsor-logos .logos::after {
+  content: '';
+  display: flex;
+  gap: 5rem;
+  animation: scrollLogos 15s linear infinite;
+}
+
 
 
 /* Contact Section */
@@ -775,11 +782,11 @@ footer {
   }
   .sponsor-logos .logos {
     gap: 1rem; /* Reduce gap between logos */
-    justify-content: flex-start;
-    animation: scrollLogos 15s linear infinite;
+    justify-content: flex-end;
+    animation: scrollLogos 11s linear infinite;
   }
   .sponsor-logos {
-    width: 230%;
+    width: 250%;
   }
 
   #contact {
