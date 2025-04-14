@@ -103,7 +103,7 @@ header h1 {
 /* Style for h2 in .hero */
 .hero h2 {
   font-family: 'Press Start 2P', sans-serif; /* Updated font family */
-  font-size: 3rem;
+  font-size: 2rem;
   color: #00ffcc;
   text-shadow: 0 0 10px #00ffcc, 0 0 20px #0072ff;
   animation: fadeInGlow 2s ease-in-out;
