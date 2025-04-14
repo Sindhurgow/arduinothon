@@ -552,7 +552,7 @@ footer {
 .sponsor-logos {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   overflow: hidden; /* Hide overflowing logos */
   position: relative;
   width: 100%;
