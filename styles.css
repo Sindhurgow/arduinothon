@@ -776,10 +776,10 @@ footer {
   .sponsor-logos .logos {
     gap: 1rem; /* Reduce gap between logos */
     justify-content: flex-start;
-    animation: scrollLogos 13s linear infinite;
+    animation: scrollLogos 15s linear infinite;
   }
   .sponsor-logos {
-    width: 250%;
+    width: 230%;
   }
 
   #contact {
