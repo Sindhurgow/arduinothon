@@ -563,7 +563,7 @@ footer {
   align-items: center;
   text-align: end;
   gap: 5rem;
-  animation: scrollLogos 15s linear infinite; /* Continuous scrolling animation */
+  animation: scrollLogos 20s linear infinite; /* Continuous scrolling animation */
 }
 
 .sponsor-logos img {
@@ -782,10 +782,10 @@ footer {
   .sponsor-logos .logos {
     gap: 1rem; /* Reduce gap between logos */
     justify-content: flex-end;
-    animation: scrollLogos 10s linear infinite;
+    animation: scrollLogos 13s linear infinite;
   }
   .sponsor-logos {
-    width: 260%;
+    width: 250%;
   }
 
   #contact {
