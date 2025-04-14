@@ -582,17 +582,11 @@ footer {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-110%);
   }
 }
 
 /* Duplicate the logos for seamless scrolling */
-.sponsor-logos .logos::after {
-  content: '';
-  display: flex;
-  gap: 5rem;
-  animation: scrollLogos 15s linear infinite;
-}
 
 
 /* Contact Section */
@@ -781,7 +775,7 @@ footer {
   }
   .sponsor-logos .logos {
     gap: 1rem; /* Reduce gap between logos */
-    justify-content: flex-end;
+    justify-content: flex-start;
     animation: scrollLogos 13s linear infinite;
   }
   .sponsor-logos {
