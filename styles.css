@@ -599,17 +599,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  flex-wrap: warp; /* Prevent wrapping for smooth scrolling */
-  position: relative;
-  animation: moveLogos 14s infinite alternate linear; /* Continuous movement */
-  width: 70%;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .sponsor-logos img {
-  max-width: 200px;
+  max-width: 250px;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: popupBack 2s infinite ease-in-out; /* Popup and back animation */
 }
 
 .sponsor-logos img:hover {
@@ -627,19 +625,15 @@ footer {
   }
 }
 
-/* Keyframes for moving logos */
-@keyframes moveLogos {
-  0% {
-    transform: translateX(-40); /* Start at the original position */
+/* Keyframes for popup and back animation */
+@keyframes popupBack {
+  0%, 100% {
+    transform: scale(1); /* Normal size */
   }
   50% {
-    transform: translateX(-100%); /* Move halfway to the left */
-  }
-  100% {
-    transform: translateX(-40); /* Return to the original position */
+    transform: scale(1.1); /* Slightly larger */
   }
 }
-
 
 /* Contact Section */
 #contact {
@@ -852,13 +846,7 @@ footer {
     font-size: 0.8rem;
   }
   
-  .sponsor-logos img {
-    max-width: 200px;
-    max-height: 150px;
-  }
-  .sponsor-logos .logos {
-    gap: 1rem; /* Reduce gap between logos */
-  }
+
  
 
   #contact {
