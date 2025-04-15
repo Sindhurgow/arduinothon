@@ -50,6 +50,7 @@ body::before {
 nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-header-image{
