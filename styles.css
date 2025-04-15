@@ -721,26 +721,22 @@ footer {
   nav {
     height: 10%;
   }
-
-  .nav-header-image {
-    width: 10%;
-  }
   
   /* Style for .nav-header */
   .nav-header {
-    font-size: 1.2rem;
+    font-size: 0.6rem;
     margin: 0.5rem 0;
   }
   
   /* Style for .nav-sub-header */
   .nav-sub-header {
-    font-size: 0.8rem;
+    font-size: 0.4rem;
     margin: 0.3rem 0;
   }
   
   /* Style for h3 in nav */
   nav h3 {
-    font-size: 0.6rem;
+    font-size: 0.3rem;
     margin: 0.2rem 0;
   }
   
