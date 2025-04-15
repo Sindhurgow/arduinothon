@@ -711,6 +711,29 @@ footer {
 
 /* Small Phones */
 @media (max-width: 480px) {
+
+  .nav-header-image {
+    width: 10%;
+  }
+  
+  /* Style for .nav-header */
+  .nav-header {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  /* Style for .nav-sub-header */
+  .nav-sub-header {
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+  }
+  
+  /* Style for h3 in nav */
+  nav h3 {
+    font-size: 0.6rem;
+    margin: 0.2rem 0;
+  }
+  
   header h1 {
     font-size: 1.8rem;
   }
