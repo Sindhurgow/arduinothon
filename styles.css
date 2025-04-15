@@ -723,7 +723,7 @@ footer {
   }
 
   nav div{
-    width: 65%;
+    width: 70%;
     height: 20%;
   }
   
@@ -747,6 +747,10 @@ footer {
   
   header h1 {
     font-size: 1.8rem;
+  }
+
+  .register-button{
+    margin-top: 10px;
   }
 
   .hero p {
