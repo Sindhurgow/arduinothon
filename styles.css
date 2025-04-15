@@ -721,6 +721,10 @@ footer {
   nav {
     height: 10%;
   }
+
+  nav div{
+    width: 70%;
+  }
   
   /* Style for .nav-header */
   .nav-header {
