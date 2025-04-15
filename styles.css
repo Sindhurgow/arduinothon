@@ -603,6 +603,7 @@ footer {
   flex-wrap: warp; /* Prevent wrapping for smooth scrolling */
   position: relative;
   animation: moveLogos 14s infinite alternate linear; /* Continuous movement */
+  width: 70%;
 }
 
 .sponsor-logos img {
