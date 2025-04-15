@@ -724,19 +724,19 @@ footer {
   
   /* Style for .nav-header */
   .nav-header {
-    font-size: 25px;
+    font-size: 12px;
     margin: 0.3rem 0;
   }
   
   /* Style for .nav-sub-header */
   .nav-sub-header {
-    font-size: 20px;
+    font-size: 10px;
     margin: 0.3rem 0;
   }
   
   /* Style for h3 in nav */
   nav h3 {
-    font-size: 18px;
+    font-size: 8px;
     margin: 0.2rem 0;
   }
   
