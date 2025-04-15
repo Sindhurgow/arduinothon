@@ -54,6 +54,39 @@ body::before {
   animation: fadeZoom 2s ease-in-out;
 }
 
+/* Style for .nav-header */
+.nav-header {
+  font-family: 'Orbitron', sans-serif; /* Futuristic font */
+  font-size: 1.8rem;
+  color: #00e6e6; /* Vibrant cyan */
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #00e6e6, 0 0 30px #0072ff; /* Enhanced glow */
+  margin: 0.5rem 0;
+}
+
+/* Style for .nav-sub-header */
+.nav-sub-header {
+  font-family: 'Orbitron', sans-serif; /* Matches the theme */
+  font-size: 1.2rem;
+  color: #00ff99; /* Bright green */
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 15px #00ff99, 0 0 30px #00c6ff; /* Enhanced glow */
+  margin: 0.3rem 0;
+}
+
+/* Style for h3 in nav */
+nav h3 {
+  font-family: 'Orbitron', sans-serif; /* Consistent futuristic font */
+  font-size: 1rem;
+  color: #f0f0f0; /* Soft white */
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff; /* Subtle glow */
+  margin: 0.2rem 0;
+}
+
 .temp{
   width: 9%;
 }
