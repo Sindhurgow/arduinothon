@@ -49,7 +49,7 @@ body::before {
 
 
 .nav-header-image{
-  width: 100%;
+  width: 15%;
   height: auto;
   animation: fadeZoom 2s ease-in-out;
 }
@@ -57,7 +57,7 @@ body::before {
 /* Style for .nav-header */
 .nav-header {
   font-family: 'Orbitron', sans-serif; /* Futuristic font */
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #00e6e6; /* Vibrant cyan */
   text-align: center;
   text-transform: uppercase;
@@ -68,7 +68,7 @@ body::before {
 /* Style for .nav-sub-header */
 .nav-sub-header {
   font-family: 'Orbitron', sans-serif; /* Matches the theme */
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   color: #00ff99; /* Bright green */
   text-align: center;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ body::before {
 /* Style for h3 in nav */
 nav h3 {
   font-family: 'Orbitron', sans-serif; /* Consistent futuristic font */
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #f0f0f0; /* Soft white */
   text-align: center;
   text-transform: uppercase;
