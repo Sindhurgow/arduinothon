@@ -55,9 +55,15 @@ nav{
 }
 
 .nav-header-image{
-  width: 15%;
   height: auto;
   animation: fadeZoom 2s ease-in-out;
+}
+.img1{
+   width: 15%;
+}
+
+.img1{
+   width: 12%;
 }
 
 /* Style for .nav-header */
