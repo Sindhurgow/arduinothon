@@ -597,7 +597,7 @@ footer {
 /* Sponsor Logos Container */
 .sponsor-logos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   gap: 3rem;
   flex-wrap: wrap;
