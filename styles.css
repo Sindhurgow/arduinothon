@@ -600,7 +600,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  flex-wrap: nowrap; /* Prevent wrapping for smooth scrolling */
+  flex-wrap: warp; /* Prevent wrapping for smooth scrolling */
   position: relative;
   animation: moveLogos 14s infinite alternate linear; /* Continuous movement */
 }
@@ -629,13 +629,13 @@ footer {
 /* Keyframes for moving logos */
 @keyframes moveLogos {
   0% {
-    transform: translateX(0); /* Start at the original position */
+    transform: translateX(10); /* Start at the original position */
   }
   50% {
-    transform: translateX(-50%); /* Move halfway to the left */
+    transform: translateX(100%); /* Move halfway to the left */
   }
   100% {
-    transform: translateX(0); /* Return to the original position */
+    transform: translateX(10); /* Return to the original position */
   }
 }
 
