@@ -712,6 +712,9 @@ footer {
 
 /* Small Phones */
 @media (max-width: 480px) {
+  nav {
+    height: 10%;
+  }
 
   .nav-header-image {
     width: 10%;
