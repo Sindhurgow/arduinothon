@@ -47,6 +47,10 @@ body::before {
   animation: glowLines 5s infinite alternate ease-in-out;
 }
 
+nav{
+  display: flex;
+  justify-content: space-between;
+}
 
 .nav-header-image{
   width: 15%;
