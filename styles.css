@@ -575,69 +575,69 @@ footer {
 
 /* Sponsorship Section */
 #sponsorship {
-  padding: 2rem 1rem;
+  padding: 3rem 2rem;
   text-align: center;
-  background-color: #1a1a1a;
-  margin: 2rem 0;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 198, 255, 0.3), 0 0 30px rgba(0, 255, 153, 0.2);
-  overflow: hidden; /* Ensures logos stay within the container */
+  background: linear-gradient(135deg, #1a1a1a, #0d0d0d);
+  margin: 2rem auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 198, 255, 0.4), 0 0 40px rgba(0, 255, 153, 0.3);
+  overflow: hidden;
+  position: relative;
 }
 
 #sponsorship h2 {
   font-family: 'Orbitron', sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #00c6ff;
-  text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff;
-  margin-bottom: 1rem;
+  text-shadow: 0 0 15px #00c6ff, 0 0 30px #0072ff;
+  margin-bottom: 2rem;
+  animation: glowText 3s infinite alternate; /* Glowing text animation */
 }
 
-/* Scrolling logos container */
+/* Sponsor Logos Container */
 .sponsor-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Hide overflowing logos */
+  gap: 2rem;
+  flex-wrap: nowrap; /* Prevent wrapping for smooth scrolling */
   position: relative;
-  width: 100%;
-}
-
-.sponsor-logos .logos {
-  display: flex;
-  align-items: center;
-  text-align: end;
-  gap: 5rem;
-  animation: scrollLogos 15s linear infinite; /* Continuous scrolling animation */
+  animation: moveLogos 14s infinite alternate linear; /* Continuous movement */
 }
 
 .sponsor-logos img {
-  max-height: 180px;
+  max-width: 200px;
   height: auto;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .sponsor-logos img:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #00c6ff, 0 0 40px #00ff99; /* Enhanced glow on hover */
 }
 
-/* Keyframes for scrolling animation */
-@keyframes scrollLogos {
+/* Keyframes for glowing text */
+@keyframes glowText {
   0% {
-    transform: translateX(0);
+    text-shadow: 0 0 10px #00c6ff, 0 0 20px #0072ff, 0 0 30px #00ff99;
   }
   100% {
-    transform: translateX(-100%);
+    text-shadow: 0 0 20px #00ff99, 0 0 30px #00c6ff, 0 0 40px #0072ff;
   }
 }
 
-/* Duplicate the logos for seamless scrolling */
-.sponsor-logos .logos::after {
-  content: '';
-  display: flex;
-  gap: 5rem;
-  animation: scrollLogos 15s linear infinite;
+/* Keyframes for moving logos */
+@keyframes moveLogos {
+  0% {
+    transform: translateX(0); /* Start at the original position */
+  }
+  50% {
+    transform: translateX(-50%); /* Move halfway to the left */
+  }
+  100% {
+    transform: translateX(0); /* Return to the original position */
+  }
 }
-
 
 
 /* Contact Section */
@@ -857,12 +857,8 @@ footer {
   }
   .sponsor-logos .logos {
     gap: 1rem; /* Reduce gap between logos */
-    justify-content: flex-end;
-    animation: scrollLogos 11s linear infinite;
   }
-  .sponsor-logos {
-    width: 250%;
-  }
+ 
 
   #contact {
     padding: 2rem 1rem;
