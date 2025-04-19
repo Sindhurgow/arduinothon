@@ -194,7 +194,7 @@ header h1 {
 }
 
 .hero img {
-  max-width: 15%;
+  max-width: 9%;
   animation: float 4s ease-in-out infinite;
   margin-top: 1rem;
 }
@@ -751,6 +751,10 @@ footer {
   .hero p {
     font-size: 1rem;
     padding: 0 1rem;
+  }
+
+  .hero img {
+    max-width: 17%;
   }
 
   .register-button {
