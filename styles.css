@@ -194,7 +194,7 @@ header h1 {
 }
 
 .hero img {
-  max-width: 12%;
+  max-width: 15%;
   animation: float 4s ease-in-out infinite;
   margin-top: 1rem;
 }
